@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="navbar_container flex justify-between py-1 items-center px-7">
+    <nav className="navbar_container flex justify-between py-1 items-center px-7 flex-wrap">
       <div className="logo_nav">
         <img
           src="https://static.rdc.moveaws.com/images/logos/rdc-logo-default.svg"
