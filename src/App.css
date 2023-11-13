@@ -4,3 +4,9 @@
     box-sizing: border-box;
     
 }
+.banner_background{
+    background-image: url('./assets//banner/banner_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:  100% 100%;
+}
