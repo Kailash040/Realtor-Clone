@@ -4,7 +4,8 @@ const Navbar = () => {
       <div className="logo_nav">
         <img
           src="https://static.rdc.moveaws.com/images/logos/rdc-logo-default.svg"
-          alt="logo" className="w-48"
+          alt="logo"
+          className="w-48"
         />
       </div>
       <div className="navbar_item  list-none ">
@@ -32,14 +33,17 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-<div className="manage_rentals_advertise list-none flex gap-6 text-base underline-offset-2 underline">
-    <li >Manage rentals</li>
-    <li> Advertise</li>
-</div>
-<div className="login_signup list-none  flex gap-6 items-center">
-    <li className="text-[14px]"> Log in </li>
-    <li className="text-base rounded-full bg-black   text-white px-[16px] py-2  font-medium"> Sign up</li>
-</div>
+      <div className="manage_rentals_advertise list-none flex gap-6 text-base underline-offset-2 underline">
+        <li>Manage rentals</li>
+        <li> Advertise</li>
+      </div>
+      <div className="login_signup list-none  flex gap-6 items-center">
+        <li className="text-[14px]"> Log in </li>
+        <li className="text-base rounded-full bg-black   text-white px-[16px] py-2  font-medium">
+          {" "}
+          Sign up
+        </li>
+      </div>
     </nav>
   );
 };
