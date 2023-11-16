@@ -7,12 +7,14 @@ import Profile from "../src/pages/Profile";
 import SignIn from "../src/pages/SignIn";
 import SignUp from "../src/pages/SignUp";
 import Header  from '../src/component/Header'
+import Slider from '../src/component/Slider'
 import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
       <Navbar />
       <Header/>
+      <Slider/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/offers" element={<Offers />} />
