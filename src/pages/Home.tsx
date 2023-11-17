@@ -1,5 +1,5 @@
 const Home = () => {
-  return <>Header file</>;
+  return <>insert firebse data here</>;
 };
 
 export default Home;
