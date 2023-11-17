@@ -7,7 +7,7 @@ const Home = () => {
   const handleSubmit =  (event: React.FormEvent) => {
   
     event.preventDefault();
-    // console.log(massageRef.current.value);
+   
     let  data ={
       message :  massageRef.current.value
     }
