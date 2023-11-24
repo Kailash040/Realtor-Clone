@@ -12,6 +12,7 @@ const Home = () => {
     };
     try {
       addDoc(ref, data);
+      console.log(data.message)
     } catch (e) {
       console.log(data);
     }

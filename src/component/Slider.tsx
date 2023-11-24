@@ -16,11 +16,7 @@ const Slider = () => {
       <SwiperSlide>Slide </SwiperSlide>
       <SwiperSlide>Slide </SwiperSlide>
       <SwiperSlide>Slide </SwiperSlide>
-      <SwiperSlide>Slide </SwiperSlide><SwiperSlide>Slide </SwiperSlide>
       <SwiperSlide>Slide </SwiperSlide>
-      <SwiperSlide>Slide </SwiperSlide>
-      <SwiperSlide>Slide </SwiperSlide>
-     <h1>sliderjs</h1>
     </Swiper>
     </div>
   )
