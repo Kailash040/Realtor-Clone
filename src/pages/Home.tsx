@@ -29,7 +29,7 @@ const Home = () => {
               ...doc.data(),
               id: doc.id,
             }));
-            // console.log(newData)
+            console.log(newData)
           }
         );
       } catch (err) {
