@@ -17,7 +17,7 @@ const onSubmit = async (e) => {
         // Signed in
         const user = userCredential.user;
         console.log(user);
-        navigate("/login")
+        navigate("/")
         // ...
     })
     .catch((error) => {
