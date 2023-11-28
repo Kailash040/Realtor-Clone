@@ -1,25 +1,23 @@
 import "./App.css";
 import Home from "../src/pages/Home";
 import ForgetPassword from "../src/pages/ForgetPassword";
-import Navbar from "./component/Navbar";
-import Offers from "../src/pages/Offers";
+
 import Profile from "../src/pages/Profile";
 import SignIn from "../src/pages/SignIn";
 import SignUp from "../src/pages/SignUp";
-import Header  from '../src/component/Header'
-import Slider from '../src/component/Slider'
+
 import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <Header/>
-      <Slider/>
+      <Slider/> */}
       {/* <SignIn/> */}
-      <SignUp />
+      {/* <SignUp /> */}
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/offers" element={<Offers />} />
+        <Route path="/" element={<SignIn />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/signIn" element={<SignIn />} />
         <Route path="/signUp" element={<SignUp />} />
