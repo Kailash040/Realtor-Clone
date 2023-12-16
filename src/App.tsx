@@ -10,11 +10,6 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      {/* <Navbar />
-      <Header/>
-      <Slider/> */}
-      {/* <SignIn/> */}
-      {/* <SignUp /> */}
       <Routes>
         <Route path="/" element={<SignIn />} />
         <Route path="/home" element={<Home />} />
