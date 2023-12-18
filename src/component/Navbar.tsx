@@ -9,7 +9,7 @@ const Navbar = () => {
         />
       </div>
       <div className="navbar_item  list-none ">
-        <ul className="flex flex-row text-[14px]  text-black  gap-6">
+        <ul className="flex flex-row text-[14px]  text-black  gap-6 cursor-pointer">
           <li>
             <a href="#">Buy</a>
           </li>
@@ -33,11 +33,11 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="manage_rentals_advertise list-none flex gap-6 text-base underline-offset-2 underline">
+      <div className="manage_rentals_advertise list-none flex gap-6 text-base underline-offset-2 underline cursor-pointer">
         <li>Manage rentals</li>
         <li> Advertise</li>
       </div>
-      <div className="login_signup list-none  flex gap-6 items-center">
+      <div className="login_signup list-none  flex gap-6 items-center cursor-pointer">
         <li className="text-[14px]"> Log in </li>
         <li className="text-base rounded-full bg-black   text-white px-[16px] py-2  font-medium">
           {" "}
