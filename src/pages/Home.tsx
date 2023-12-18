@@ -1,3 +1,4 @@
+import Footer from "../component/Footer";
 import Header from "../component/Header";
 import Main from "../component/Main";
 import Navbar from "../component/Navbar";
@@ -10,6 +11,7 @@ const Home = () => {
      <Header/>
      <Slider/>
      <Main/>
+     <Footer/>
     </>
   );
 };
