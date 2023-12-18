@@ -1,6 +1,8 @@
 
 const Main = () => {
   return (
+    <div>
+  <h1 className="text-[35px] m-auto text-center  mb-5">Real State & Homes for sale</h1>
     <div className="flex flex-wrap  mx-auto gap-4 justify-around">
       
 
@@ -174,6 +176,7 @@ const Main = () => {
         </div>
     </div>
 </div>
+    </div>
     </div>
   )
 }
