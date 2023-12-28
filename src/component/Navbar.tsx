@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav className="navbar_container flex justify-between py-1 items-center px-7 flex-wrap">
+    <nav className="navbar_container flex justify-between py-2 items-center px-7 flex-wrap">
       <div className="logo_nav">
         <img
           src="https://static.rdc.moveaws.com/images/logos/rdc-logo-default.svg"
@@ -26,10 +27,10 @@ const Navbar = () => {
             <a href="#">Find Relaltons</a>
           </li>
           <li>
-            <a href="#">My Home</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="#"> News & Insights</a>
+            <a href="#"> Privacy</a>
           </li>
         </ul>
       </div>

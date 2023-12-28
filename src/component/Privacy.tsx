@@ -1,6 +1,6 @@
 const Privacy = () => {
   return (
-    <div>
+    <div>  fgfdgffgf
       In the vast landscape of dreams, where aspirations take root and ambitions
       soar, real estate stands as the canvas upon which the tapestry of life is
       painted. It is not merely bricks and mortar; it is the embodiment of
