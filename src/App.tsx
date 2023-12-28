@@ -7,7 +7,7 @@ import SignIn from "../src/pages/SignIn";
 import SignUp from "../src/pages/SignUp";
 
 import { Route, Routes } from "react-router-dom";
-import AboutUs from "./component/AboutUs";
+import AboutUs from "./pages/AboutUs";
 function App() {
   return (
     <>

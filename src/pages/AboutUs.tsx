@@ -1,13 +1,11 @@
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "../component/Footer";
+import Navbar from "../component/Navbar";
 
 const AboutUs = () => {
   return (
     <div>
-      <h1>sdfgfgdfgdrfbdrbdgwedbvdfbvvf</h1>
       <Navbar/>
-      <p>
-        sfgffhfghhhgfhgh
+      <p className="px-4 m-4">
         In the vast landscape of dreams, where aspirations take root and
         ambitions soar, real estate stands as the canvas upon which the tapestry
         of life is painted. It is not merely bricks and mortar; it is the
@@ -126,7 +124,6 @@ const AboutUs = () => {
         becomes the driving force shaping the future of property development.
         Real estate is not immune
       </p>
-      jkhgkjgjhg
       <Footer/>
     </div>
   );
