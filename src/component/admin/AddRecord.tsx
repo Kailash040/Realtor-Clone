@@ -9,7 +9,7 @@ const Home = () => {
     event.preventDefault();
 
     let data = {
-      message: massageRef.current.value,
+      message: massageRef?.current,
     };
     try {
       addDoc(ref, data);

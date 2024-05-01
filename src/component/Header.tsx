@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 const Header = () => {
   const location = useLocation();
   console.log(location);
-  function pathNameRoute(route) {
+  function pathNameRoute(route: string) {
     if (route === location.pathname) {
       return true;
     }

@@ -9,7 +9,7 @@ const SignUp = () => {
     const [password, setPassword] = useState('');
  ///// SignUp functionality ////////////////
 //  
-const onSubmit = async (e) => {
+const onSubmit = async (e: React.ChangeEvent<any>) => {
   e.preventDefault()
  
   await createUserWithEmailAndPassword(auth, email, password)
